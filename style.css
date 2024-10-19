@@ -205,7 +205,7 @@
 /* About Us */
 /* About Banner */
 .about-banner {
-    background-image: url(/assets/aboutus.jpg);
+    background-image: url(./assets/aboutus.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
