@@ -16,6 +16,10 @@
     margin-right: 30px;
 }
 
+.announcement a:hover {
+    color: #e1140a;
+}
+
 /* Navbar */
 .navbar {
     position: sticky;
@@ -120,13 +124,13 @@
 }
 
 .products .images .hp img {
-    width: 100px;
+    width: 80px; 
 }
 
 .products .images .asus img,
 .products .images .lenovo img,
 .products .images .acer img {
-    width: 150px;
+    width: 125px;
 }
 
 .products .images .dell img,
@@ -144,7 +148,7 @@
 .products .images .jabra img,
 .products .images .poly img,
 .products .images .checkpoint img {
-    width: 160px;
+    width: 125px;
 }
 
 .products .images .msi img,
@@ -153,7 +157,7 @@
 .products .images .d-link img,
 .products .images .vertiv img,
 .products .images .delta img {
-    width: 180px;
+    width: 135px;
 } 
 
 .products .images .apple img,
@@ -162,7 +166,7 @@
 .products .images .lg img,
 .products .images .trellix img,
 .products .images .ridge img {
-    width: 140px;
+    width: 125px;
 }
 
 .products .images .microsoft img,
@@ -173,11 +177,11 @@
 .products .images .bricscad img,
 .products .images .zwcad img,
 .products .images .watchguard img {
-    width: 200px;
+    width: 150px;
 }
 
 .products .images .lumion img {
-    width: 220px;
+    width: 150px;
 }
 
 .products .images .samsung img,
@@ -195,11 +199,11 @@
 .products .images .filewave img,
 .products .images .skyhigh img,
 .products .images .paloalto img {
-    width: 180px;
+    width: 150px;
 }
 
 .products .images .sangfor img {
-    width: 280px;
+    width: 180px;
 }
 
 /* About Us */
@@ -545,13 +549,13 @@ footer .copyright {
 }
 
 .products .images .hp img {
-    width: 70px;
+    width: 60px;
 }
 
 .products .images .asus img,
 .products .images .lenovo img,
 .products .images .acer img {
-    width: 100px;
+    width: 90px;
 }
 
 .products .images .dell img,
@@ -569,7 +573,7 @@ footer .copyright {
 .products .images .jabra img,
 .products .images .poly img,
 .products .images .checkpoint img {
-    width: 120px;
+    width: 90px;
 }
 
 .products .images .msi img,
@@ -578,7 +582,7 @@ footer .copyright {
 .products .images .d-link img,
 .products .images .vertiv img,
 .products .images .delta img {
-    width: 120px;
+    width: 90px;
 } 
 
 .products .images .apple img,
@@ -587,7 +591,7 @@ footer .copyright {
 .products .images .lg img,
 .products .images .trellix img,
 .products .images .ridge img {
-    width: 120px;
+    width: 90px;
 }
 
 .products .images .microsoft img,
@@ -598,11 +602,11 @@ footer .copyright {
 .products .images .bricscad img,
 .products .images .zwcad img,
 .products .images .watchguard img {
-    width: 130px;
+    width: 90px;
 }
 
 .products .images .lumion img {
-    width: 120px;
+    width: 90px;
 }
 
 .products .images .samsung img,
@@ -620,11 +624,11 @@ footer .copyright {
 .products .images .filewave img,
 .products .images .skyhigh img,
 .products .images .paloalto img {
-    width: 120px;
+    width: 90px;
 }
 
 .products .images .sangfor img {
-    width: 120px;
+    width: 90px;
 }
 
 }
@@ -639,13 +643,13 @@ footer .copyright {
     }
     
     .products .images .hp img {
-        width: 70px;
+        width: 60px;
     }
     
     .products .images .asus img,
     .products .images .lenovo img,
     .products .images .acer img {
-        width: 100px;
+        width: 90px;
     }
     
     .products .images .dell img,
@@ -663,7 +667,7 @@ footer .copyright {
     .products .images .jabra img,
     .products .images .poly img,
     .products .images .checkpoint img {
-        width: 120px;
+        width: 90px;
     }
     
     .products .images .msi img,
@@ -672,7 +676,7 @@ footer .copyright {
     .products .images .d-link img,
     .products .images .vertiv img,
     .products .images .delta img {
-        width: 120px;
+        width: 90px;
     } 
     
     .products .images .apple img,
@@ -681,7 +685,7 @@ footer .copyright {
     .products .images .lg img,
     .products .images .trellix img,
     .products .images .ridge img {
-        width: 120px;
+        width: 90px;
     }
     
     .products .images .microsoft img,
@@ -692,11 +696,11 @@ footer .copyright {
     .products .images .bricscad img,
     .products .images .zwcad img,
     .products .images .watchguard img {
-        width: 130px;
+        width: 90px;
     }
     
     .products .images .lumion img {
-        width: 120px;
+        width: 90px;
     }
     
     .products .images .samsung img,
@@ -714,11 +718,11 @@ footer .copyright {
     .products .images .filewave img,
     .products .images .skyhigh img,
     .products .images .paloalto img {
-        width: 120px;
+        width: 90px;
     }
     
     .products .images .sangfor img {
-        width: 120px;
+        width: 90px;
     }
     
 }
@@ -733,7 +737,7 @@ footer .copyright {
     }
     
     .products .images .hp img {
-        width: 70px;
+        width: 60px;
     }
     
     .products .images .asus img,
@@ -757,7 +761,7 @@ footer .copyright {
     .products .images .jabra img,
     .products .images .poly img,
     .products .images .checkpoint img {
-        width: 120px;
+        width: 100px;
     }
     
     .products .images .msi img,
@@ -766,7 +770,7 @@ footer .copyright {
     .products .images .d-link img,
     .products .images .vertiv img,
     .products .images .delta img {
-        width: 120px;
+        width: 100px;
     } 
     
     .products .images .apple img,
@@ -775,7 +779,7 @@ footer .copyright {
     .products .images .lg img,
     .products .images .trellix img,
     .products .images .ridge img {
-        width: 120px;
+        width: 100px;
     }
     
     .products .images .microsoft img,
@@ -786,11 +790,11 @@ footer .copyright {
     .products .images .bricscad img,
     .products .images .zwcad img,
     .products .images .watchguard img {
-        width: 130px;
+        width: 100px;
     }
     
     .products .images .lumion img {
-        width: 120px;
+        width: 100px;
     }
     
     .products .images .samsung img,
@@ -808,11 +812,11 @@ footer .copyright {
     .products .images .filewave img,
     .products .images .skyhigh img,
     .products .images .paloalto img {
-        width: 120px;
+        width: 100px;
     }
     
     .products .images .sangfor img {
-        width: 120px;
+        width: 100px;
     }
     
 }
@@ -827,13 +831,13 @@ footer .copyright {
     }
     
     .products .images .hp img {
-        width: 70px;
+        width: 65px;
     }
     
     .products .images .asus img,
     .products .images .lenovo img,
     .products .images .acer img {
-        width: 120px;
+        width: 100px;
     }
     
     .products .images .dell img,
@@ -851,7 +855,7 @@ footer .copyright {
     .products .images .jabra img,
     .products .images .poly img,
     .products .images .checkpoint img {
-        width: 130px;
+        width: 100px;
     }
     
     .products .images .msi img,
@@ -860,7 +864,7 @@ footer .copyright {
     .products .images .d-link img,
     .products .images .vertiv img,
     .products .images .delta img {
-        width: 130px;
+        width: 100px;
     } 
     
     .products .images .apple img,
@@ -869,7 +873,7 @@ footer .copyright {
     .products .images .lg img,
     .products .images .trellix img,
     .products .images .ridge img {
-        width: 130px;
+        width: 100px;
     }
     
     .products .images .microsoft img,
@@ -880,11 +884,11 @@ footer .copyright {
     .products .images .bricscad img,
     .products .images .zwcad img,
     .products .images .watchguard img {
-        width: 130px;
+        width: 100px;
     }
     
     .products .images .lumion img {
-        width: 130px;
+        width: 100px;
     }
     
     .products .images .samsung img,
@@ -902,11 +906,11 @@ footer .copyright {
     .products .images .filewave img,
     .products .images .skyhigh img,
     .products .images .paloalto img {
-        width: 130px;
+        width: 100px;
     }
     
     .products .images .sangfor img {
-        width: 130px;
+        width: 100px;
     }
     
 }
