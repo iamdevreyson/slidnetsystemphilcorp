@@ -456,7 +456,7 @@ footer .copyright {
 /* Navbar */
 
 @media (min-width: 320px) and (max-width: 426px) {
-    .navbar-brand .slid-name {
+    .navbar-brand a {
         display: none;
     }
 
