@@ -345,6 +345,40 @@
     height: 100%;
 }
 
+/* Accomplishment Page */
+.title-page h1 {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0 0rem;
+    font-family: "Oswald", sans-serif;
+}
+
+.section-certifications {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-certifications h4 {
+    font-size: 20px;
+    margin: 14px 0 18px;
+}
+
+.section-certifications img {
+    width: 120px;
+    cursor: pointer;
+}
+
+.certifications {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+    padding: 3rem 0 5rem;
+}
+
+.hpe-award, .hp-award, .sophos-award, .asus-award {
+    text-align: center;
+}
 
 
 /* Footer */
@@ -980,6 +1014,63 @@ footer .copyright {
         padding: 20px 20px;
     }
 
+}
+
+/* Accomplishment Section */
+/* Accomplishment Page */
+@media (min-width: 320px) and (max-width: 426px) {
+    .section-certifications h4 {
+        font-size: 18px;
+        margin: 14px 0 18px;
+    }
+
+    .section-certifications img {
+        width: 100px;
+    }
+
+    .certifications {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        padding: 3rem 0 3rem;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 646px) {
+    .section-certifications h4 {
+        font-size: 18px;
+        margin: 14px 0 18px;
+    }
+
+    .section-certifications img {
+        width: 100px;
+    }
+
+    .certifications {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        padding: 3rem 0 3rem;
+    }
+}
+
+@media (min-width: 646px) and (max-width: 901px) {
+    .section-certifications h4 {
+        font-size: 18px;
+        margin: 14px 0 18px;
+    }
+
+    .section-certifications img {
+        width: 95px;
+        cursor: pointer;
+    }
+
+    .certifications {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+        padding: 3rem 0 3rem;
+    }
 }
 
 /* Footer */
