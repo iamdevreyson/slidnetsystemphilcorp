@@ -951,6 +951,82 @@ footer .copyright {
 }
 
 /* ABOUT PAGE */
+@media (min-width: 320px) and (max-width: 376px) {
+    .about-banner {
+        padding: 5rem 0;
+    }
+    
+    .about-banner .about h1 {
+        font-size: 28px;
+    }
+    
+    /* Mission */
+    .mission {
+        padding: 3.5rem 0;
+    }
+    
+    .mission h1 {
+        font-size: 30px;
+    }
+    
+    .mission p {
+        font-size: 14px;
+        margin: 18px 20px;
+    }
+    
+    /* Vision */
+    .vision {
+        padding: 3.5rem 0;
+    }
+    
+    .vision h1 {
+        font-size: 30px;
+    }
+    
+    .vision p {
+        font-size: 14px;
+        margin: 18px 20px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 769px) {
+    .about-banner {
+        padding: 5rem 0;
+    }
+    
+    .about-banner .about h1 {
+        font-size: 32px;
+    }
+    
+    /* Mission */
+    .mission {
+        padding: 3rem 0;
+    }
+    
+    .mission h1 {
+        font-size: 28px;
+    }
+    
+    .mission p {
+        font-size: 14px;
+        margin: 18px 20px;
+    }
+    
+    /* Vision */
+    .vision {
+        padding: 3rem 0;
+    }
+    
+    .vision h1 {
+        font-size: 28px;
+    }
+    
+    .vision p {
+        font-size: 14px;
+        margin: 18px 20px;
+    }
+}
+
 
 /* CONTACT PAGE */
 /* Contact Section */
