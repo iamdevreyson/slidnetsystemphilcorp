@@ -427,6 +427,107 @@
     line-height: 2.1rem;
 }
 
+.maintenance-about {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    margin: 4rem 0;
+    width: 95%;
+}
+
+.maintenance-about .column-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maintenance-about .column-1 img {
+    width: 65%;
+}
+
+.maintenance-about .column-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maintenance-about .column-2 .services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.maintenance-about .column-2 .services .expert-technicians, .genuine-parts,
+.reliable-services, .customer-satisfaction  {
+    border: 1px solid #1e70b0;
+    border-radius: 25px;
+    padding: 35px;
+    background-color: #799fcb;
+    box-shadow: 0 0 10px rgba(30, 112, 176, 0.8);
+}
+
+.maintenance-about .column-2 .services figure h2, p {
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+
+.maintenance-about .column-2 .services figure h2 {
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+.maintenance-about .column-2 .services figure p {
+    font-size: 14px;
+    margin-top: 18px;
+}
+
+.technical-service-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1e70b0;
+    padding: 3rem 0;
+}
+
+.technical-service-section h1 {
+    font-family: "Poppins", serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 1rem 0;
+}
+
+.technical-service-section .technical-service {
+    display: grid;
+    width: 80%;
+    margin: 2rem auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.technical-service-section .technical-service .diagnostic-services, .repair-maintenance,
+.part-replacement, .warranty-service, .technical-support  {
+    border: 1px solid #ffffff;
+    border-radius: 18px;
+    padding: 25px;
+    background-color: #ffffff;
+}
+
+.technical-service-section .technical-service figure h2, p {
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+
+.technical-service-section .technical-service figure h2 {
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+.technical-service-section .technical-service figure p {
+    font-size: 14px;
+    margin-top: 18px;
+}
+
 /* Footer */
 footer {
     background-color: #000000;
