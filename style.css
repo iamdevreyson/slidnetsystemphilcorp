@@ -399,7 +399,7 @@
 .maintenance-banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 95%;
+    width: 75%;
     margin: auto;
     padding: 50px 0;
 }
@@ -422,16 +422,17 @@
 
 .maintenance-banner-text h2 {
     font-family: "Poppins", serif;
-    font-size: 20px;
+    font-size: 16px;
     width: 90%;
     line-height: 2.1rem;
+    text-align: justify;
 }
 
 .maintenance-about {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
     margin: 4rem 0;
-    width: 95%;
+    width: 90%;
 }
 
 .maintenance-about .column-1 {
@@ -1293,6 +1294,460 @@ footer .copyright {
         grid-template-columns: repeat(4, 1fr);
         gap: 2rem;
         padding: 3rem 0 3rem;
+    }
+}
+
+/* Maintenance and Support Section */
+/* Maintenance and Support Page */
+@media (min-width: 320px) and (max-width: 426px) {
+    .maintenance-title {
+        padding: 30px 0;
+    }
+
+    .maintenance-title h1 {
+        font-size: 20px;
+    }
+
+    .maintenance-banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: auto;
+        padding: 3rem 0;
+    }
+
+    .maintenance-banner-image img {
+        width: 75%;
+    }
+
+    .maintenance-banner-text h2 {
+        font-size: 14px;
+        width: 90%;
+        line-height: 1.8rem;
+        margin-top: 35px;
+    }
+
+    .maintenance-about {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 1.5rem 0;
+        width: 100%;
+    }
+
+    .maintenance-about .column-1 img {
+        width: 60%;
+    }
+
+    .maintenance-about .column-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .maintenance-about .column-2 .services {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin: 3rem 0;
+        width: 90%;
+    }
+
+    .maintenance-about .column-2 .services .expert-technicians, .genuine-parts,
+    .reliable-services, .customer-satisfaction  {
+        padding: 10px;
+    }
+
+    .maintenance-about .column-2 .services figure h2, p {
+        text-align: center;
+        font-family: "Poppins", serif;
+    }
+
+    .maintenance-about .column-2 .services figure h2 {
+        margin-top: 12px;
+        font-size: 16px;
+    }
+
+    .maintenance-about .column-2 .services figure p {
+        font-size: 12px;
+        margin-top: 18px;
+    }
+
+    .technical-service-section {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .technical-service-section h1 {
+        font-size: 20px;
+        margin: 30px 0;
+    }
+
+    .technical-service-section .technical-service {
+        display: grid;
+        width: 90%;
+        margin: 2rem auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .technical-service-section .technical-service .diagnostic-services, .repair-maintenance,
+    .part-replacement, .warranty-service, .technical-support  {
+        padding: 14px;
+    }
+
+    .technical-service-section .technical-service figure h2, p {
+        text-align: center;
+        font-family: "Poppins", serif;
+    }
+
+    .technical-service-section .technical-service figure h2 {
+        margin-top: 12px;
+        font-size: 16px;
+    }
+
+    .technical-service-section .technical-service figure p {
+        font-size: 12px;
+        margin-top: 18px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 646px) {
+    .maintenance-title {
+        padding: 30px 0;
+    }
+
+    .maintenance-title h1 {
+        font-size: 20px;
+    }
+
+    .maintenance-banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: auto;
+        padding: 3rem 0;
+    }
+
+    .maintenance-banner-image img {
+        width: 55%;
+    }
+
+    .maintenance-banner-text h2 {
+        font-size: 14px;
+        width: 90%;
+        line-height: 1.8rem;
+        margin-top: 35px;
+    }
+
+    .maintenance-about {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 1.5rem 0;
+        width: 100%;
+    }
+
+    .maintenance-about .column-1 img {
+        width: 40%;
+    }
+
+    .maintenance-about .column-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .maintenance-about .column-2 .services {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin: 3rem 0;
+        width: 90%;
+    }
+
+    .maintenance-about .column-2 .services .expert-technicians, .genuine-parts,
+    .reliable-services, .customer-satisfaction  {
+        padding: 10px;
+    }
+
+    .maintenance-about .column-2 .services figure h2, p {
+        text-align: center;
+        font-family: "Poppins", serif;
+    }
+
+    .maintenance-about .column-2 .services figure h2 {
+        margin-top: 12px;
+        font-size: 16px;
+    }
+
+    .maintenance-about .column-2 .services figure p {
+        font-size: 12px;
+        margin-top: 18px;
+    }
+
+    .technical-service-section {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .technical-service-section h1 {
+        font-size: 20px;
+        margin: 30px 0;
+    }
+
+    .technical-service-section .technical-service {
+        display: grid;
+        width: 90%;
+        margin: 2rem auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.8rem;
+    }
+
+    .technical-service-section .technical-service .diagnostic-services, .repair-maintenance,
+    .part-replacement, .warranty-service, .technical-support  {
+        padding: 14px;
+    }
+
+    .technical-service-section .technical-service figure h2, p {
+        text-align: center;
+        font-family: "Poppins", serif;
+    }
+
+    .technical-service-section .technical-service figure h2 {
+        margin-top: 12px;
+        font-size: 16px;
+    }
+
+    .technical-service-section .technical-service figure p {
+        font-size: 12px;
+        margin-top: 18px;
+    }
+}
+
+@media (min-width: 646px) and (max-width: 1150px) {
+    .maintenance-title {
+        padding: 30px 0;
+    }
+
+    .maintenance-title h1 {
+        font-size: 28px;
+    }
+
+    .maintenance-banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: auto;
+        padding: 3rem 0;
+    }
+
+    .maintenance-banner-image img {
+        width: 40%;
+    }
+
+    .maintenance-banner-text h2 {
+        font-size: 16px;
+        width: 90%;
+        line-height: 1.8rem;
+        margin-top: 45px;
+    }
+
+    .maintenance-about {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 1.5rem 0;
+        width: 100%;
+    }
+
+    .maintenance-about .column-1 img {
+        width: 30%;
+    }
+
+    .maintenance-about .column-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .maintenance-about .column-2 .services {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin: 3rem 0;
+        width: 90%;
+    }
+
+    .maintenance-about .column-2 .services .expert-technicians, .genuine-parts,
+    .reliable-services, .customer-satisfaction  {
+        padding: 20px;
+    }
+
+    .maintenance-about .column-2 .services figure h2, p {
+        text-align: center;
+        font-family: "Poppins", serif;
+    }
+
+    .maintenance-about .column-2 .services figure h2 {
+        margin-top: 12px;
+        font-size: 18px;
+    }
+
+    .maintenance-about .column-2 .services figure p {
+        font-size: 14px;
+        margin-top: 18px;
+    }
+
+    .technical-service-section {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .technical-service-section h1 {
+        font-size: 20px;
+        margin: 30px 0;
+    }
+
+    .technical-service-section .technical-service {
+        display: grid;
+        width: 90%;
+        margin: 2rem auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.8rem;
+    }
+
+    .technical-service-section .technical-service .diagnostic-services, .repair-maintenance,
+    .part-replacement, .warranty-service, .technical-support  {
+        padding: 20px;
+    }
+
+    .technical-service-section .technical-service figure h2, p {
+        text-align: center;
+        font-family: "Poppins", serif;
+    }
+
+    .technical-service-section .technical-service figure h2 {
+        margin-top: 12px;
+        font-size: 18px;
+    }
+
+    .technical-service-section .technical-service figure p {
+        font-size: 14px;
+        margin-top: 18px;
+    }
+}
+
+@media (min-width: 1150px) and (max-width: 1350px) {
+    .maintenance-title {
+        padding: 30px 0;
+    }
+
+    .maintenance-title h1 {
+        font-size: 28px;
+    }
+
+    .maintenance-banner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        margin: auto;
+        padding: 3rem 0;
+    }
+
+    .maintenance-banner-image img {
+        width: 55%;
+    }
+
+    .maintenance-banner-text h2 {
+        font-size: 16px;
+        width: 90%;
+        line-height: 1.8rem;
+        margin-top: 45px;
+    }
+
+    .maintenance-about {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 1.5rem 0;
+        width: 95%;
+    }
+
+    .maintenance-about .column-1 img {
+        width: 55%;
+    }
+
+    .maintenance-about .column-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .maintenance-about .column-2 .services {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin: 3rem 0;
+        width: 90%;
+    }
+
+    .maintenance-about .column-2 .services .expert-technicians, .genuine-parts,
+    .reliable-services, .customer-satisfaction  {
+        padding: 20px;
+    }
+
+    .maintenance-about .column-2 .services figure h2, p {
+        text-align: center;
+        font-family: "Poppins", serif;
+    }
+
+    .maintenance-about .column-2 .services figure h2 {
+        margin-top: 12px;
+        font-size: 18px;
+    }
+
+    .maintenance-about .column-2 .services figure p {
+        font-size: 14px;
+        margin-top: 18px;
+    }
+
+    .technical-service-section {
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .technical-service-section h1 {
+        font-size: 28px;
+        margin: 30px 0;
+    }
+
+    .technical-service-section .technical-service {
+        display: grid;
+        width: 85%;
+        margin: 2rem auto;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.8rem;
+    }
+
+    .technical-service-section .technical-service .diagnostic-services, .repair-maintenance,
+    .part-replacement, .warranty-service, .technical-support  {
+        padding: 20px;
+    }
+
+    .technical-service-section .technical-service figure h2, p {
+        text-align: center;
+        font-family: "Poppins", serif;
+    }
+
+    .technical-service-section .technical-service figure h2 {
+        margin-top: 12px;
+        font-size: 18px;
+    }
+
+    .technical-service-section .technical-service figure p {
+        font-size: 14px;
+        margin-top: 18px;
     }
 }
 
