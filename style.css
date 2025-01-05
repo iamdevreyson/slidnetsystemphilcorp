@@ -529,6 +529,92 @@
     margin-top: 18px;
 }
 
+.maintenance-contact {
+    width: 75%;
+    margin: auto;
+    padding: 3rem 0
+}
+
+.maintenance-contact a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.maintenance-contact a:hover {
+    color: #1e70b0;
+}
+
+.maintenance-contact .maintenance-header {
+    text-align: center;
+}
+
+.maintenance-contact .maintenance-header h2, p{
+    font-family: "Poppins", serif;
+}
+
+.maintenance-contact .maintenance-header h2 {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.maintenance-contact .maintenance-header p {
+    margin-top: 24px;
+    font-size: 18px;
+}
+
+.maintenance-contact-phone,
+.maintenance-contact-email,
+.maintenance-contact-address,
+.maintenance-contact-schedule {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    justify-content: center;
+    width: 35%;
+    margin: auto;
+    padding: 18px 0;
+}
+
+.maintenance-contact-phone .icon, 
+.maintenance-contact-email .icon,
+.maintenance-contact-address .icon,
+.maintenance-contact-schedule .icon {
+    display: flex;
+    justify-content: center;
+}
+
+.maintenance-contact-phone .phone-details h2, span,
+.maintenance-contact-email .email-details h2, span,
+.maintenance-contact-address .address-details h2, span,
+.maintenance-contact-schedule .schedule-details h2, span{
+    font-family: "Poppins", serif;
+}
+
+.maintenance-contact-phone .phone-details h2,
+.maintenance-contact-email .email-details h2,
+.maintenance-contact-address .address-details h2,
+.maintenance-contact-schedule .schedule-details h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.maintenance-contact-phone .phone-details span {
+    font-size: 18px;
+}
+
+.maintenance-contact-email .email-details span {
+    font-size: 16px;
+}
+
+.maintenance-contact-address .address-details span {
+    font-size: 16px;
+}
+
+.maintenance-contact img {
+    width: 50px;
+    color: #799fcb;
+    filter: invert(25%) sepia(88%) saturate(5677%) hue-rotate(191deg) brightness(91%) contrast(123%);
+}
+
 /* Footer */
 footer {
     background-color: #000000;
@@ -1748,6 +1834,168 @@ footer .copyright {
     .technical-service-section .technical-service figure p {
         font-size: 14px;
         margin-top: 18px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 426px) {
+    .maintenance-contact {
+        width: 95%;
+    }
+    
+    .maintenance-contact .maintenance-header h2 {
+        font-size: 28px;
+    }
+    
+    .maintenance-contact .maintenance-header p {
+        font-size: 14px;
+    }
+    
+    .maintenance-contact-phone,
+    .maintenance-contact-email,
+    .maintenance-contact-address,
+    .maintenance-contact-schedule {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: auto;
+        padding: 18px 0;
+        text-align: center;
+    }
+    
+    .maintenance-contact-phone .phone-details h2,
+    .maintenance-contact-email .email-details h2,
+    .maintenance-contact-address .address-details h2,
+    .maintenance-contact-schedule .schedule-details h2 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .maintenance-contact-phone .phone-details span {
+        font-size: 14px;
+    }
+    
+    .maintenance-contact-email .email-details span {
+        font-size: 14px;
+    }
+    
+    .maintenance-contact-address .address-details span {
+        font-size: 14px;
+    }
+
+    .maintenance-contact-schedule .schedule-details span {
+        font-size: 14px;
+    }
+    
+    .maintenance-contact img {
+        width: 40px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 646px) {
+    .maintenance-contact {
+        width: 95%;
+    }
+    
+    .maintenance-contact .maintenance-header h2 {
+        font-size: 32px;
+    }
+    
+    .maintenance-contact .maintenance-header p {
+        font-size: 18px;
+    }
+    
+    .maintenance-contact-phone,
+    .maintenance-contact-email,
+    .maintenance-contact-address,
+    .maintenance-contact-schedule {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: auto;
+        padding: 18px 0;
+        text-align: center;
+    }
+    
+    .maintenance-contact-phone .phone-details h2,
+    .maintenance-contact-email .email-details h2,
+    .maintenance-contact-address .address-details h2,
+    .maintenance-contact-schedule .schedule-details h2 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    
+    .maintenance-contact-phone .phone-details span {
+        font-size: 16px;
+    }
+    
+    .maintenance-contact-email .email-details span {
+        font-size: 16px;
+    }
+    
+    .maintenance-contact-address .address-details span {
+        font-size: 16px;
+    }
+
+    .maintenance-contact-schedule .schedule-details span {
+        font-size: 16px;
+    }
+    
+    .maintenance-contact img {
+        width: 40px;
+    }
+}
+
+@media (min-width: 646px) and (max-width: 1344px) {
+    .maintenance-contact {
+        width: 95%;
+    }
+    
+    .maintenance-contact .maintenance-header h2 {
+        font-size: 32px;
+    }
+    
+    .maintenance-contact .maintenance-header p {
+        font-size: 18px;
+    }
+    
+    .maintenance-contact-phone,
+    .maintenance-contact-email,
+    .maintenance-contact-address,
+    .maintenance-contact-schedule {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: auto;
+        padding: 18px 0;
+        text-align: center;
+    }
+    
+    .maintenance-contact-phone .phone-details h2,
+    .maintenance-contact-email .email-details h2,
+    .maintenance-contact-address .address-details h2,
+    .maintenance-contact-schedule .schedule-details h2 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    
+    .maintenance-contact-phone .phone-details span {
+        font-size: 16px;
+    }
+    
+    .maintenance-contact-email .email-details span {
+        font-size: 16px;
+    }
+    
+    .maintenance-contact-address .address-details span {
+        font-size: 16px;
+    }
+
+    .maintenance-contact-schedule .schedule-details span {
+        font-size: 16px;
+    }
+    
+    .maintenance-contact img {
+        width: 40px;
     }
 }
 
